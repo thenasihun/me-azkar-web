@@ -1,9 +1,8 @@
 # Daily Supplications Viewer
 
-[![GitHub Pages Deployment](https://github.com/thenasihun/me-azkar-web/actions/workflows/deploy.yml/badge.svg)](https://github.com/thenasihun/me-azkar-web/actions) ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Get it on Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.is360.me_azkar&hl=en)
-A beautiful, responsive web interface for reading daily morning evening azkar Islamic supplications (duas) with audio playback and multilingual support.
+[![GitHub Pages Deployment](https://github.com/thenasihun/me-azkar-web/actions/workflows/static.yml/badge.svg)](https://github.com/thenasihun/me-azkar-web/actions) ![License](https://img.shields.io/badge/License-MIT-blue.svg) [![Get it on Google Play](https://img.shields.io/badge/Google_Play-414141?style=flat&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.is360.me_azkar&hl=en)
 
-Download App ```ME Azkar``` from playstore
+A beautiful, responsive web interface for reading daily morning evening azkar Islamic supplications (duas) with audio playback and multilingual support.
 
 ## Features
 
