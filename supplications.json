@@ -1,0 +1,964 @@
+{
+    "supplications": [
+        {
+            "id": 1,
+            "order": 1,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰهُ لَآ اِلٰهَ اِلَّا ھُوَ  ۚ اَلْـحَيُّ الْقَيُّوْمُ ڬ لَا تَاْخُذُهٗ سِـنَةٌ وَّلَا نَوْمٌ  ۭ لَهٗ مَا فِي السَّمٰوٰتِ وَمَا فِي الْاَرْضِ  ۭ مَنْ ذَا الَّذِيْ يَشْفَعُ عِنْدَهٗٓ اِلَّا بِاِذْنِهٖ ۭ يَعْلَمُ مَا بَيْنَ اَيْدِيْهِمْ وَمَا خَلْفَھُمْ ۚ وَلَا يُحِيْطُوْنَ بِشَيْءٍ مِّنْ عِلْمِهٖٓ اِلَّا بِمَا شَاۗءَ  ۚ وَسِعَ كُرْسِـيُّهُ السَّمٰوٰتِ وَالْاَرْضَ  ۚ وَلَا يَـــــُٔـــوْدُهٗ حِفْظُهُمَا  ۚ وَھُوَ الْعَلِيُّ الْعَظِيْمُ ۔",
+                "translation": {
+                    "ur": "اللہ تعالٰی ہی معبود برحق ہے جس کے سوا کوئی معبود نہیں جو زندہ اور سب کا تھامنے والا ہے ،  جسے نہ اونگھ آتی ہے نہ نیند ،  اس کی ملکیت میں زمین اور آسمانوں کی تمام چیزیں ہیں ۔  کون ہے جو اس کی اجازت کے بغیر اس کے سامنے شفاعت کرسکے ،  وہ جانتا ہے جو اس کے سامنے ہے اور جو ان کے پیچھے ہے اور وہ اس کے علم میں سے کسی چیز کا احاطہ نہیں کر سکتے مگر جتنا وہ چاہے ،   اس کی کرسی کی وُسعت  نے زمین اور آسمان کو گھیر رکھا ہے اور اللہ تعالٰی ان کی حفاظت سے نہ تھکتا ہے اور نہ اُکتاتا ہے وہ تو بہت بلند اور بہت بڑا ہے۔",
+                    "eng": "Allah - there is no deity except Him, the Ever-Living, the Sustainer of [all] existence. Neither drowsiness overtakes Him nor sleep. To Him belongs whatever is in the heavens and whatever is on the earth. Who is it that can intercede with Him except by His permission? He knows what is [presently] before them and what will be after them, and they encompass not a thing of His knowledge except for what He wills. His Kursi extends over the heavens and the earth, and their preservation tires Him not. And He is the Most High, the Most Great."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص صبح کے وقت آیۃالکرسی پڑھے وہ شام تک جنوں سے محفوظ ہوجاتا ہے اور جو اسے شام کے وقت پڑھے وہ صبح تک ان سے محفوظ ہو جاتا ہے۔",
+                    "eng": "He who recites the Aya al-Kursi in the morning is safe from the jinn till evening and he who recites it in the evening is safe from them till morning."
+                }
+            },
+            "audio": "assets/1.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح الترغیب والترھیب",
+                    "eng": "Sahih Al Targheeb Wal Tarheeb"
+                },
+                "hadith_number": 662
+            }
+        },
+        {
+            "id": 2,
+            "order": 2,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ  ۔ قُلْ هُوَ اللَّهُ أَحَدٌ  ۔ اللَّهُ الصَّمَدُ  ۔ لَمْ يَلِدْ وَلَمْ يُولَدْ  ۔ وَلَمْ يَكُنْ لَهُ كُفُوًا أَحَدٌ  ۔",
+                "translation": {
+                    "ur": "کہہ دو وہ الله ایک ہے ، اللہ بے نیاز ہے، نہ اس کی کوئی اولاد ہے اور نہ وہ کسی کی اولاد ہے ، اور اس کے برابر کا کوئی نہیں ہے ۔",
+                    "eng": "SAY: HE IS God the one the most unique, God the immanently indispensable. He has begotten no one, and is begotten of none. There is no one comparable to Him."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص آخری تینوں قل تین دفعہ صبح اور تین دفعہ شام کے وقت پڑھے، یہ عمل اس کے لیے دنیا کی ہر چیز کی کفالت کے واسطے کافی ہو جاتا ہے۔",
+                    "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
+                }
+            },
+            "audio": "assets/2.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5082
+            }
+        },
+        {
+            "id": 3,
+            "order": 3,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ  ۔ قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ  ۔ مِنْ شَرِّ مَا خَلَقَ  ۔  وَمِنْ شَرِّ غَاسِقٍ إِذَا وَقَبَ  ۔  وَمِنْ شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ  ۔  وَمِنْ شَرِّ حَاسِدٍ إِذَا حَسَدَ  ۔",
+                "translation": {
+                    "ur": "کہہ دو صبح کے پیدا کرنے والے کی پناہ مانگتا ہوں، اس کی مخلوقات کے شر سے، اور اندھیری رات کے شر سے جب وہ چھا جائے، اورگرہوں میں پھونکنے والیوں کے شر سے، اور حسد کرنے والے کے شر سے جب وہ حسد کرے۔",
+                    "eng": "SAY: \"I SEEK refuge with the Lord of rising day, From the evil of what He has created, And the evil of evening darkness when it overspreads, From the evil of sorceresses who blow incantations on knots, From the evil of the envier when he envies."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص آخری تینوں قل تین دفعہ صبح اور تین دفعہ شام کے وقت پڑھے، یہ عمل اس کے لیے دنیا کی ہر چیز کی کفالت کے واسطے کافی ہو جاتا ہے۔",
+                    "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
+                }
+            },
+            "audio": "assets/3.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5082
+            }
+        },
+        {
+            "id": 4,
+            "order": 4,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ  ۔  قُلْ أَعُوذُ بِرَبِّ النَّاسِ  ۔  مَلِكِ النَّاسِ  ۔  إِلَٰهِ النَّاسِ  ۔  مِنْ شَرِّ الْوَسْوَاسِ الْخَنَّاسِ  ۔ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ  ۔ مِنَ الْجِنَّةِ وَالنَّاسِ ۔",
+                "translation": {
+                    "ur": "کہہ دو میں لوگوں کے رب کی پناہ میں آیا، لوگوں کے بادشاہ کی، لوگوں کے معبود کی، اس شیطان کے شر سے جووسوسہ ڈال کر چھپ جاتا ہے، جو لوگوں کے سینوں میں وسوسہ ڈالتا ہے، جنوں اور انسانوں میں سے ۔",
+                    "eng": "SAY: \"I SEEK refuge with the Lord of men, The King of men, The God of men, From the evil of him who breathes temptations into the minds of men, Who suggests evil thoughts to the hearts of men -- From among the jinns and men."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص آخری تینوں قل تین دفعہ صبح اور تین دفعہ شام کے وقت پڑھے، یہ عمل اس کے لیے دنیا کی ہر چیز کی کفالت کے واسطے کافی ہو جاتا ہے۔",
+                    "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
+                }
+            },
+            "audio": "assets/4.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5082
+            }
+        },
+        {
+            "id": 5,
+            "order": 5,
+            "repeat_count": 7,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "حَسْبِيَ اللَّهُ لَا إِلَٰهَ إِلَّا هُوَ ۖ عَلَيْهِ تَوَكَّلْتُ ۖ وَهُوَ رَبُّ الْعَرْشِ الْعَظِيمِ ۔",
+                "translation": {
+                    "ur": "مجھے الله ہی کافی ہے اس کے سوا اور کوئی معبود نہیں اسی پر میں بھروسہ کرتا ہوں اور وہی عرش عظیم کا مالک ہے",
+                    "eng": "God is sufficient for me. There is no God but He; I depend on Him alone, the Lord of the glorious Throne."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/5.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5081
+            }
+        },
+        {
+            "id": 6,
+            "order": 7,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ مَآ اَصْبَحَ بِیْ مِنْ نِّعْمَۃٍ اَوْ بِاَحَدٍ مِّنْ خَلْقِکَ فَمِنْکَ وَحْدَکَ لَا شَرِیْکَ لَکَ، فَلَکَ الْحَمْدُ وَلَکَ الشُّکْرُ",
+                "translation": {
+                    "ur": "اے اللہ! صبح کے وقت مجھ پر یا تیری مخلوق میں سے کسی پر جو بھی انعام ہوا ہے، وہ تیری ہی طرف سے ہے۔ تو اکیلا ہے، تیرا کوئی شریک نہیں، پس تیرے ہی لیے سب تعریف ہے اور تیرے ہی لیے شکر ہے۔",
+                    "eng": "O Allah, whatever blessing I or any of Your creation have risen upon is from You alone, without any partner, so for You is all praise and unto You all thanks."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/6.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5073
+            }
+        },
+        {
+            "id": 7,
+            "order": 7,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ مَآ اَمْسٰی بِیْ مِنْ نِّعْمَۃٍ اَوْبِاَحَدٍ مِّنْ خَلْقِکَ فَمِنْکَ وَحْدَکَ لَا شَرِیْکَ لَکَ، فَلَکَ الْحَمْدُ وَلَکَ الشُّکْرُ",
+                "translation": {
+                    "ur": "اے اللہ! شام کے وقت مجھ پر یا تیری مخلوق میں سے کسی پر جو بھی انعام ہوا ہے، وہ تیری ہی طرف سے ہے۔ تو اکیلا ہے، تیرا کوئی شریک نہیں، پس تیرے ہی لیے شکر ہے۔",
+                    "eng": "O Allah, whatever blessing I or any of Your creation have reached the evening upon is from You alone, without any partner, so for You is all praise and unto You all thanks."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/7.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5073
+            }
+        },
+        {
+            "id": 8,
+            "order": 8,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ بِکَ اَصْبَحْنَا وَبِکَ اَمْسَیْنَا وَبِکَ نَحْیَا وَبِکَ نَمُوْتُ وَاِلَیْکَ النُّشُوْرُ",
+                "translation": {
+                    "ur": "اے اللہ! تیری ہی حفاظت میں ہم نے صبح کی اور تیری ہی حفاظت میں شام کی اور تیرے ہی نام پر ہم زندہ ہوتے اور تیرے ہی نام پر ہم مرتے ہیں اور تیری ہی طرف لوٹنا ہے۔",
+                    "eng": "O Allah, by Your leave we have reached the morning and by Your leave we have reached the evening, by Your leave we live and die and unto You is our resurrection."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/8.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سلسلۃ الأحادیث الصحیحۃ",
+                    "eng": "Al Silsila Tul Sahiha"
+                },
+                "hadith_number": 262
+            }
+        },
+        {
+            "id": 9,
+            "order": 8,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ بِکَ اَمْسَیْنَا وَبِکَ اَصْبَحْنَا وَبِکَ نَحْیَا وَبِکَ نَمُوْتُ وَاِلَیْکَ الْمَصِیْرُ",
+                "translation": {
+                    "ur": "’اے اللہ! تیری ہی حفاظت میں ہم نے شام کی اور تیری ہی حفاظت میں صبح کی اور تیرے ہی نام کے ساتھ ہم زندہ ہوتے اور تیرے ہی نام کے ساتھ ہم مرتے ہیں اور تیری ہی طرف اٹھ کر جانا ہے۔",
+                    "eng": "O Allah, by Your leave we have reached the evening and by Your leave we have reached the morning, by Your leave we live and die and unto You is our return."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/9.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سلسلۃ الأحادیث الصحیحۃ",
+                    "eng": "Al Silsila Tul Sahiha"
+                },
+                "hadith_number": 262
+            }
+        },
+        {
+            "id": 10,
+            "order": 9,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "یَا حَیُّ یَا قَیُّوْمُ بِرَحْمَتِکَ اَسْتَغِیْثُ اَصْلِحْ لِیْ شَاْنِیْ کُلَّہٗ، وَلَا تَکِلْنِیْٓ اِلٰی نَفْسِیْ طَرْفَۃَ عَیْنٍ",
+                "translation": {
+                    "ur": "اے زندۂ جاوید! اے قائم و دائم! میں تیری ہی رحمت کے ذریعے سے مدد طلب کرتا ہوں، تو میرا ہر کام سنوار دے اور آنکھ جھپکنے کے برابر بھی مجھے میرے نفس کے سپرد نہ کرنا۔",
+                    "eng": "O Ever Living, O Self-Subsisting and Supporter of All, by Your mercy, I seek assistance, rectify for me all of my affairs and don't leave me to myself even for the blink of an eye."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/10.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "المستدرک للحاکم",
+                    "eng": "Mustadrak Al Hakim"
+                },
+                "hadith_number": 2000
+            }
+        },
+        {
+            "id": 11,
+            "order": 13,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "بِسْمِ اللّٰہِ الَّذِیْ لَا یَضُرُّ مَعَ اسْمِہٖ شَیْءٌ فِی الْاَرْضِ وَلَا فِی السَّمَآءِ وَھُوَ السَّمِیْعُ الْعَلِیْمُ",
+                "translation": {
+                    "ur": "اس اللہ کے نام کے ساتھ جس کے نام کی برکت سے کوئی چیز نقصان نہیں پہنچا سکتی، زمین کی ہو یا آسمانوں کی اور وہ خوب سننے والا، خوب جاننے والا ہے۔",
+                    "eng": "In the name of Allah with those name nothing is harmed on earth nor in the heavens and He is the All-Seeing, the All-Knowing."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/11.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5088
+            }
+        },
+        {
+            "id": 12,
+            "order": 14,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَعُوْذُ بِکَلِمَاتِ للّٰہِ التَّآمَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+                "translation": {
+                    "ur": "میں اللہ کے مکمل کلمات کی پناہ میں آتا ہوں، اس کی مخلوق کے شر سے۔",
+                    "eng": "I take refuge in Allah's perfect words from the evil He has created."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/12.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح مسلم",
+                    "eng": "Sahih Al Muslim"
+                },
+                "hadith_number": 6880
+            }
+        },
+        {
+            "id": 13,
+            "order": 15,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "رَضِیْتُ بِاللّٰہِ رَبًّا وَّبِالْاِسْلَامِ دِیْنًا وَّبِمُحَمَّدٍ نَبِیًّا",
+                "translation": {
+                    "ur": "میں اللہ کے ساتھ (اس کے) رب ہونے پر راضی ہوگیا اور اسلام کے ساتھ (اس کے) دین ہونے پر اور محمد (صلی اللہ علیہ وآلہ وسلم) کے ساتھ (ان کے) نبی ہونے پر۔",
+                    "eng": "I'm pleased with Allah as a Lord, and Islam as a religion and Muhammad as a Prophet."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/13.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5072
+            }
+        },
+        {
+            "id": 14,
+            "order": 16,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "سُبْحَانَ اللّٰہِ وَبِحَمْدِہٖ عَدَدَ خَلْقِہٖ وَرِضَا نَفْسِہٖ، وَزِنَۃَ عَرْشِہٖ وَمِدَادَ کَلِمَاتِہٖ",
+                "translation": {
+                    "ur": "میں اللہ کی پاکیزگی بیان کرتا ہوں اس کی تعریفوں کے ساتھ، اس کی مخلوق کی تعداد کے برابر، اس کی ذات کی رضا کے برابر، اس کے عرش کے وزن اور اس کے کلمات کی روشنائی کے برابر۔",
+                    "eng": "How perfect is Allah and I praise Him by the number of His Creation and His pleasure and by the weight of His throne and the ink of His words."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/14.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح مسلم",
+                    "eng": "Sahih Al Muslim"
+                },
+                "hadith_number": 6913
+            }
+        },
+        {
+            "id": 15,
+            "order": 10,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَصْبَحْنَا وَاَصْبَحَ الْمُلْکُ لِلّٰہِ رَبِّ الْعَالَمِیْنَ، اَللّٰھُمَّ اِنِّیْٓ اَسْئَلُکَ خَیْرَ ھٰذَا الْیَوْمِ فَتْحَہٗ وَنَصْرَہٗ وَنُوْرَہٗ وَبَرَکَتَہٗ وَھُدَاہُ، وَاَعُوْذُبِکَ مِنْ شَرِّ مَا فِیْہِ وَشَرِّ مَا بَعْدَہٗ",
+                "translation": {
+                    "ur": "ہم نے صبح کی اور اللہ رب العالمین کے سارے ملک نے صبح کی۔ اے اللہ! میں تجھ سے اس دن کی بہتری مانگتا ہوں، اس کی فتح و نصرت، اس کا نور، اس کی برکت اور اس کی ہدایت اور میں اس دن کے شر اور اس کے بعد کے شر سے تیری پناہ چاہتا ہوں۔",
+                    "eng": "We have reached the morning and at this very time all sovereignty belongs to Allah, Lord of the Worlds. O Allah, I ask You for the good of this day, its triumphs and its victories, its light and its blessings, and its guidance. And I take refuge in You from the evil of this day and the evil that follows it."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/15.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5084
+            }
+        },
+        {
+            "id": 16,
+            "order": 10,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَمْسَیْنَا وَاَمْسَی الْمُلْکُ لِلّٰہِ رَبِّ الْعَالَمِیْنَ، اَللّٰھُمَّ اِنِّیْٓ اَسْئَلُکَ خَیْرَ ھٰذِہِ اللَّیْلَۃِ فَتْحَھَا وَنَصْرَھَا وَنُوْرَھَا وَبَرَکَتَھَا وَھُدَاھَا، وَاَعُوْذُبِکَ مِنْ شَرِّ مَا فِیْھَا وَشَرِّ مَا بَعْدَھَا",
+                "translation": {
+                    "ur": "ہم نے شام کی اور اللہ رب العالمین کے سارے ملک نے شام کی۔ اے اللہ! میں تجھ سے اس رات کی بہتری مانگتا ہوں، اس کی فتح و نصرت، اس کا نور، اس کی برکت اور اس کی ہدایت اور میں تجھ سے اس رات کے شر اور اس کے بعد کے شر سے پناہ چاہتا ہوں۔",
+                    "eng": "We have reaached the evening and at this very time all sovereignty belongs to Allah, Lord of the Worlds. O Allah, I ask You for the good of this night, its triumphs and its victories, its light and its blessings, and its guidance. And I take refuge in You from the evil of this day and the evil that follows it."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/16.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5084
+            }
+        },
+        {
+            "id": 17,
+            "order": 11,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَصْبَحْنَا عَلٰی فِطْرَۃِ الْاِسْلَامِ وَعَلٰی کَلِمَۃِ الْاِخْلَاصِ وَعَلٰی دِیْنِ نَبِیِّنَا مُحَمَّدٍ وَّعَلٰی مِلَّۃِ اَبِیْنَا اِبْرَاھِیْمَ حَنِیْفًا مُّسْلِمًا وَّمَا کَانَ مِنَ الْمُشْرِکِیْنَ",
+                "translation": {
+                    "ur": "ہم نے فطرتِ اسلام، کلمۂ اخلاص، اپنے نبی حضرت محمد صلی اللہ علیہ وآلہ وسلم کے دین اور اپنے باپ حضرت ابراہیم علیہ السلام، جو یک رخ (اور) فرماں بردار تھے، کی ملت پر صبح کی اور وہ مشرکوں میں سے نہیں تھے۔",
+                    "eng": "We rise upon the fitrah (religion) of Islam, and the word of pure faith, and upon the religion of our Prophet Muhammad and the religion of our forefather Ibrahim, who was a Muslim and of true faith and was not one of those who associate others with Allah."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/17.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "مسند أحمد",
+                    "eng": "Musnad Ahmad"
+                },
+                "hadith_number": "406/3"
+            }
+        },
+        {
+            "id": 18,
+            "order": 12,
+            "repeat_count": 3,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ عَافِنِیْ فِیْ بَدَنِیْ، اَللّٰھُمَّ عَافِنِیْ فِیْ سَمْعِیْ، اَللّٰھُمَّ عَافِنِیْ فِیْ بَصَرِیْ، لَآ اِلٰہَ اِلَّآ اَنْتَ، اَللّٰھُمَّ اِنِّیْٓ اَعُوْذُبِکَ مِنَ الْکُفْرِ وَالْفَقْرِ اَللّٰھُمَّ اِنِّیْٓ اَعُوْذُبِکَ مِنْ عَذَابِ الْقَبْرِ، لَآ اِلٰہَ اِلَّآ اَنْتَ",
+                "translation": {
+                    "ur": "اے اللہ! مجھے میرے بدن میں عافیت دے۔ اے اللہ! مجھے میرے کانوں میں عافیت دے۔ اے اللہ! مجھے میری آنکھوں میں عافیت دے، تیرے سوا کوئی معبود نہیں۔ اے اللہ! یقیناً میں کفر اور غربت سے تیری پناہ میں آتا ہوں اور اے اللہ! یقیناً میں عذابِ قبر سے تیری پناہ میں آتا ہوں، تیرے سوا کوئی معبود نہیں۔",
+                    "eng": "O Allah, grant my body health, o Allah, grant my hearing health, o Allah, grant my sight health. None has the right to be worshipped except You. O Allah, I take refuge with You from disbelief and poverty, and I take refuge with You from the punishment of the grave. None has the right to be worshipped except You."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/18.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5090
+            }
+        },
+        {
+            "id": 19,
+            "order": 18,
+            "repeat_count": 4,
+            "supplication_info": {
+                "ur": "جو شخص یہ دعا پڑھے گا، اللہ تعالیٰ اسے آگ سے آزاد کرے گا۔",
+                "eng": "Whoever recites this prayer, Allah Almighty will free him from the fire."
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ اِنِّیْٓ اَصْبَحْتُ اُشْھِدُکَ وَاُشْھِدُ حَمَلَۃَ عَرْشِکَ وَمَلَآئِکَتَکَ وَجَمِیْعَ خَلْقِکَ اَنَّکَ اَنْتَ اللّٰہُ لَآ اِلٰہَ اِلَّآ اَنْتَ وَحْدَکَ لَا شَرِیْکَ لَکَ وَاَنَّ مُحَمَّدًا عَبْدُکَ وَرَسُوْلُکَ",
+                "translation": {
+                    "ur": "اے اللہ! یقیناً میں نے ایسی حالت میں صبح کی کہ تجھے، تیرا عرش اٹھانے والے فرشتوں، تیرے (دیگر) فرشتوں اور تیری تمام مخلوق کو اس بات پر گواہ بناتا ہوں کہ تو ہی اللہ ہے، تیرے سوا کوئی معبود نہیں، تو اکیلا ہے، تیرا کوئی شریک نہیں اور بلاشبہ محمد (صلی اللہ علیہ وآلہ وسلم) تیرے بندے اور تیرے رسول ہیں۔",
+                    "eng": "O Allah, verily I have reached the morning and I call on You, the bearers of Your throne, Your angels, and all of Your Creation, to withness that You are Allah, none has the right to be worshipped except You, alone, without any partner and that Muhammad is Your servant and messenger."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/19.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5069
+            }
+        },
+        {
+            "id": 20,
+            "order": 18,
+            "repeat_count": 4,
+            "supplication_info": {
+                "ur": "جو شخص یہ دعا پڑھے گا، اللہ تعالیٰ اسے آگ سے آزاد کرے گا۔",
+                "eng": "Whoever recites this prayer, Allah Almighty will free him from the fire."
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ اِنِّیْٓ اَمْسَیْتُ اُشْھِدُکَ وَاُشْھِدُ حَمَلَۃَ عَرْشِکَ وَمَلَآئِکَتَکَ وَجَمِیْعَ خَلْقِکَ اَنَّکَ اَنْتَ اللّٰہُ لَآ اِلٰہَ اِلَّآ اَنْتَ وَحْدَکَ لَا شَرِیْکَ لَکَ وَاَنَّ مُحَمَّدًا عَبْدُکَ وَرَسُوْلُکَ",
+                "translation": {
+                    "ur": "اے اللہ! یقیناً میں نے ایسی حالت میں شام کی کہ تجھے، تیرا عرش اٹھانے والے فرشتوں، تیرے (دیگر) فرشتوں اور تیری تمام مخلوق کو اس بات پر گواہ بناتا ہوں کہ تو ہی اللہ ہے، تیرے سوا کوئی معبود نہیں، تو اکیلا ہے، تیرا کوئی شریک نہیں اور بلاشبہ محمد (صلی اللہ علیہ وآلہ وسلم) تیرے بندے اور تیرے رسول ہیں۔",
+                    "eng": "O Allah, verily I have reached the evening and I call on You, the bearers of Your throne, Your angels, and all of Your Creation, to withness that You are Allah, none has the right to be worshipped except You, alone, without any partner and that Muhammad is Your servant and messenger."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/20.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5069
+            }
+        },
+        {
+            "id": 21,
+            "order": 19,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ اِنِّیْٓ اَسْئَلُکَ الْعَفْوَ وَالْعَافِیَۃَ فِی الدُّنْیَا وَالْاٰخِرَۃِ، اَللّٰھُمَّ اِنِّیْٓ اَسْئَلُکَ الْعَفْوَ وَالْعَافِیَۃَ فِی دِیْنِیْ وَدُنْیَایَ وَاَھْلِیْ وَمَالِیْ، اَللّٰھُمَّ اسْتُرْ عَوْرَاتِیْ وَاٰمِنْ رَّوْعَاتِیْ، اَللّٰھُمَّ احْفَظْنِیْ مِنْۢ بَیْنِ یَدَیَّ وَمِنْ خَلْفِیْ وَعَنْ یَّمِیْنِیْ وَعَنْ شِمَالِیْ وَمِنْ فَوْقِیْ وَاَعُوْذُ بِعَظَمَتِکَ اَنْ اُغْتَالَ مِنْ تَحْتِیْ",
+                "translation": {
+                    "ur": "اے اللہ! بے شک میں تجھ سے دنیا اور آخرت میں معافی اور عافیت کا سوال کرتا ہوں، اے اللہ! بے شک میں تجھ سے اپنے دین، اپنی دنیا اور اپنے اہل و مال میں معافی اور عافیت کا سوال کرتا ہوں۔ اے اللہ! میرے عیبوں پر پردہ ڈال دے اور میری گھبراہٹوں میں امن دے۔ اے اللہ! تو میری حفاظت فرما میرے سامنے سے، میرے پیچھے سے، میری دائیں طرف سے، میری بائیں طرف سے اور میرے اوپر سے۔ اور میں تیری عظمت کے ساتھ اس بات سے پناہ مانگتا ہوں کہ ناگہاں اپنے نیچے سے ہلاک کیا جاؤں۔",
+                    "eng": "O Allah, I ask You for pardon and well-being in this life and the next. O Allah, I ask You for pardon and well-being in my religious and worldly affairs, and my family and my wealth. O Allah, veil my weaknesses and set at ease my dismay. O Allah, preserve me from the front and from behind and on my right and on my left and from above, and I take refuge with you lest I be swallowed up by the earth."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/21.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5074
+            }
+        },
+        {
+            "id": 22,
+            "order": 20,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ عَالِمَ الْغَیْبِ وَالشَّھَادَۃِ فَاطِرَالسَّمٰوٰتِ وَالْاَرْضِ رَبَّ کُلِّ شَیْءٍ وَمَلِیْکَہٗ، اَشْھَدُ اَنْ لَّآ اِلٰہَ اِلَّا اَنْتَ، اَعُوْذُبِکَ مِنْ شَرِّ نَفْسِیْ وَمِنْ شَرِّ الشَّیْطَانِ وَشِرْکِہٖ وَاَنْ اَقْتَرِفَ عَلٰی نَفْسِیْ سُوْٓءً ا اَوْ اَجُرَّہٗ اِلٰی مُسْلِمٍ",
+                "translation": {
+                    "ur": "اے اللہ! غیب اور حاضر کے جاننے والے! آسمانوں اور زمین کے پیدا کرنے والے! ہر چیز کے رب اور اس کے مالک! میں گواہی دیتا ہوں کہ تیرے سوا کوئی معبود نہیں۔ میں تیری پناہ میں آتا ہوں اپنے نفس کے شر سے اور شیطان کے شر سے اور اس کے شرک سے اور اس بات سے کہ اپنے ہی خلاف کسی برائی کا ارتکاب کروں یا اسے کسی مسلمان کی طرف کھینچ لاؤں۔",
+                    "eng": "O Allah, Knower of the unseen and the seen, Creator of the Heavens and the Earth, Lord and Sovereign of all things, I bear witness that none has the right to be worshipped except You. I take refuge in You from the evil of my soul and from the evil and shirk of shaytan and from committing wrong against my soul and bringing such upon another Muslim."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/22.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5083
+            }
+        },
+        {
+            "id": 23,
+            "order": 17,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "یہ دعا سیدالاستغفار کہلاتی ہے۔",
+                "eng": "This prayer is called Syed ul Istighfar."
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ اَنْتَ رَبِّیْ لَآ اِلٰہَ اِلَّآ اَنْتَ خَلَقْتَنِیْ وَاَنَا عَبْدُکَ وَاَنَا عَلٰی عَھْدِکَ وَ وَعْدِکَ مَا اسْتَطَعْتُ اَعُوْذُبِکَ مِنْ شَرِّ مَا صَنَعْتُ اَبُوْءُ لَکَ بِنِعْمَتِکَ عَلَیَّ وَاَبُوْءُ بِذَنۡۢبِیْ  فَاغْفِرْلِیْ فَاِنَّہٗ لَا یَغْفِرُ الذُّنُوْبَ اِلَّآ اَنْتَ",
+                "translation": {
+                    "ur": "اے اللہ! تو ہی میرا رب ہے، تیرے سوا کوئی معبود نہیں، تو نے مجھے پیدا فرمایا اور میں تیرا بندہ ہوں اور میں اپنی طاقت کے مطابق تیرے عہد اور وعدے پر قائم ہوں، میں تجھ سے اس چیز کے شر سے پناہ مانگتا ہوں جس کا میں نے ارتکاب کیا، میں تیرے سامنے تیرے انعام کا اقرار کرتا ہوں جو مجھ پر ہوا اور میں اپنے گناہوں کا اقرار کرتا ہوں، لہٰذا تو مجھے معاف کردے۔ واقعہ یہ ہے کہ تیرے سوا کوئی گناہوں کو معاف نہیں کرسکتا۔",
+                    "eng": "O Allah, You are my Lord, none has the right to be worshipped except You, You created me and I am Your servent and I abide to Your covenant and promise as best as I can, I take refuge in You from the evil of which I have commited. I acknowledge Your favor upon me and I acknowledge my sin, so fogrive me, for verily none can forgive sin except You."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/23.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح البخاری",
+                    "eng": "Sahih Al Bukhari"
+                },
+                "hadith_number": 6306
+            }
+        },
+        {
+            "id": 24,
+            "order": 6,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَصْبَحْنَا وَاَصْبَحَ الْمُلْکُ لِلّٰہِ وَالْحَمْدُلِلّٰہِ لَآ اِلٰہَ اِلَّا اللّٰہُ وَحْدَہٗ لَاشَرِیْکَ لَہٗ، لَہُ الْمُلْکُ وَلَہُ الْحَمْدُ وَھُوَ عَلٰی کُلِّ شَیْءٍ قَدِیْرٌ، رَبِّ اَسْئَلُکَ خَیْرَ مَا فِیْ ھٰذَا الْیَوْمِ وَخَیْرَ مَا بَعْدَہٗ وَاَعُوْذُبِکَ مِنْ شَرِّ مَا فِیْ ھٰذَا الْیَوْمِ وَشَرِّ مَا بَعْدَہٗ، رَبِّ اَعُوْذُبِکَ مِنَ الْکَسَلِ وَسُوْءِ الْکِبَرِ رَبِّ اَعُوْذُبِکَ مِنْ عَذَابٍ فِی النَّارِ وَعَذَابٍ فِی الْقَبْرِ",
+                "translation": {
+                    "ur": "ہم نے صبح کی اور اللہ کے سارے ملک نے صبح کی اور سب تعریف اللہ ہی کے لیے ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے اور اسی کے لیے سب تعریف ہے اور وہ ہر چیز پر کامل قدرت رکھتا ہے۔ اے میرے رب! میں تجھ سے اس دن کی بہتری کا سوال کرتا ہوں اور اس دن کی بہتری کا جو اس کے بعد آنے والا ہے اور میں اس دن کے شر سے تیری پناہ میں آتا ہوں اور اس کے بعد آنے والے دن کے شر سے۔ اے میرے رب! میں کاہلی اور بڑھاپے کی خرابی سے تیری پناہ میں آتا ہوں۔ اے میرے رب! میں آگ کے عذاب سے اور قبر کے عذاب سے تیری پناہ میں آتا ہوں۔",
+                    "eng": "We have reached the morning and at this very time unto Allah belongs all sovereignty and all praise is for Allah. None has the right to be worshipped except Allah, alone, without any partner, to Him belongs all sovereignty and praise and everything is in His control. My Lord, I ask You for the good of this day and the good of what follows it and I take refuge in You from the evil of this day and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/24.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": false
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح مسلم",
+                    "eng": "Sahih Al Muslim"
+                },
+                "hadith_number": 2723
+            }
+        },
+        {
+            "id": 25,
+            "order": 6,
+            "repeat_count": 1,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "اَمْسَیْنَا وَاَمْسَی الْمُلْکُ لِلّٰہِ وَالْحَمْدُ لِلّٰہِ لَآ اِلٰہَ اِلَّا اللّٰہُ وَحْدَہٗ لَاشَرِیْکَ لَہٗ، لَہُ الْمُلْکُ وَلَہُ الْحَمْدُ وَھُوَ عَلٰی کُلِّ شَیْءٍ قَدِیْرٌ، رَبِّ اَسْئَلُکَ خَیْرَ مَا فِیْ ھٰذِہِ اللَّیْلَۃِ وَخَیْرَ مَا بَعْدَھَا وَاَعُوْذُبِکَ مِنْ شَرِّ مَا فِیْ ھٰذِہِ اللَّیْلَۃِ وَشَرِّ مَا بَعْدَھَا، رَبِّ اَعُوْذُبِکَ مِنَ الْکَسَلِ وَسُوْءِ الْکِبَرِ رَبِّ اَعُوْذُبِکَ مِنْ عَذَابٍ فِی النَّارِ وَعَذَابٍ فِی الْقَبْرِ",
+                "translation": {
+                    "ur": "ہم نے شام کی اور اللہ کے سارے ملک نے شام کی اور سب تعریف اللہ ہی کے لیے ہے۔ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت ہے اور اسی کے لیے سب تعریف ہے اور وہ ہر چیز پر کامل قدرت رکھتا ہے۔ اے میرے رب! میں تجھ سے اس رات کی بہتری کا سوال کرتا ہوں اور اس رات کی بہتری کا جو اس کے بعد آنے والی ہے اور میں اس رات کے شر سے تیری پناہ میں آتا ہوں اور اس کے بعد آنے والی رات کے شر سے، اے میرے رب! میں کاہلی اور بڑھاپے کی خرابی سے تیری پناہ میں آتا ہوں۔ اے میرے رب! میں آگ کے عذاب سے اور قبر کے عذاب سے تیری پناہ میں آتا ہوں۔",
+                    "eng": "We have reached the night and at this very time unto Allah belongs all sovereignty and all praise is for Allah. None has the right to be worshipped except Allah, alone, without any partner, to Him belongs all sovereignty and praise and everything is in His control. My Lord, I ask You for the good of this night and the good of what follows it and I take refuge in You from the evil of this night and the evil of what follows it. My Lord, I take refuge in You from laziness and senility. My Lord, I take refuge in You from torment in the Fire and punishment in the grave."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/25.mp3",
+            "is_morning_evening": {
+                "morning": false,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح مسلم",
+                    "eng": "Sahih Al Muslim"
+                },
+                "hadith_number": 2723
+            }
+        },
+        {
+            "id": 26,
+            "order": 21,
+            "repeat_count": 10,
+            "supplication_info": {
+                "ur": "دس بار پڑھیں اگر کاہلی کا شکار ہو تو ایک بار پڑھ لے",
+                "eng": "Read ten times, if you are lazy, read once"
+            },
+            "text": {
+                "arabic": "لَآ اِلٰہَ اِلَّا اللّٰہُ وَحْدَہٗ لَاشَرِیْکَ لَہٗ، لَہُ الْمُلْکُ وَلَہُ الْحَمْدُ وَھُوَ عَلٰی کُلِّ شَیْءٍ قَدِیْرٌ",
+                "translation": {
+                    "ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت اور اسی کی تعریف ہے اور وہ ہر چیز پر کامل قدرت رکھتا ہے۔",
+                    "eng": "None has the right to be worshipped except Allah, alone, without any partner, to Him belong all sovereignty and praise and everything is in His control."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص اسے صبح کے وقت پڑھے گا، اُس کے لیے دس نیکیاں لکھی جائیں گی، دس گناہ معاف کردیے جائیں گے، دس درجات بلند کیے جائیں گے اور یہ دعا بنو اسماعیل میں سے دس گردنیں آزاد کرنے کے برابر ہے، نیز اللہ تعالیٰ یہ دعا پڑھنے والے کو شیطان سے محفوظ رکھے گا۔ اور جو اسے شام کے وقت پڑھے گا، اُس کے لیے بھی یہی اجر ہے۔ ",
+                    "eng": "Whoever recites it in the morning, ten good deeds will be written for him, ten sins will be forgiven, ten degrees will be raised and this prayer is equal to freeing ten necks from the children of Ismaeel. He will keep the one who prays safe from the devil. And whoever reads it in the evening has the same reward."
+                }
+            },
+            "audio": "assets/26.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن ابو داود",
+                    "eng": "Sunan Abu Dawood"
+                },
+                "hadith_number": 5077
+            }
+        },
+        {
+            "id": 27,
+            "order": 23,
+            "repeat_count": 100,
+            "supplication_info": {
+                "ur": "دن بھر میں کسی بھی وقت",
+                "eng": "Any time of the day"
+            },
+            "text": {
+                "arabic": "لَآ اِلٰہَ اِلَّا اللّٰہُ وَحْدَہٗ لَاشَرِیْکَ لَہٗ، لَہُ الْمُلْکُ وَلَہُ الْحَمْدُ وَھُوَ عَلٰی کُلِّ شَیْءٍ قَدِیْرٌ",
+                "translation": {
+                    "ur": "اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہت اور اسی کی تعریف ہے اور وہ ہر چیز پر کامل قدرت رکھتا ہے۔",
+                    "eng": "None has the right to be worshipped except Allah, alone, without any partner, to Him belong all sovereignty and praise and everything is in His control."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/26.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح البخاری",
+                    "eng": "Sahih Al Bukhari"
+                },
+                "hadith_number": 3293
+            }
+        },
+        {
+            "id": 28,
+            "order": 22,
+            "repeat_count": 100,
+            "supplication_info": {
+                "ur": "",
+                "eng": ""
+            },
+            "text": {
+                "arabic": "سُبْحَانَ اللّٰہِ وَبِحَمْدِہ",
+                "translation": {
+                    "ur": "میں اللہ کی پاکیزگی بیان کرتا ہوں اس کی تعریف کے ساتھ۔",
+                    "eng": "How perfect is Allah and I praise Him."
+                },
+                "supplication_details": {
+                    "ur": "جو شخص سو مرتبہ صبح کے وقت یہ دعا پڑھے گا، اسے دس غلام آزاد کرنے کے برابر ثواب ملے گا، ایک سو نیکیاں اس کے نام لکھی جائیں گی اور اس کے ایک سو گناہ مٹادیے جائیں گے اور ان الفاظ کی برکت سے اس دن شام تک وہ شیطان سے محفوظ رہے گا اور کوئی شخص اس سے افضل عمل لے کر نہیں آئے گا۔ تاہم اگر کوئی شخص زیادہ دفعہ کہے (تو وہ اس سے بہتر ہوسکتا ہے۔)",
+                    "eng": "Whoever recites this supplication a hundred times in the morning will be rewarded with the release of ten slaves, one hundred good deeds will be written in his name and one hundred sins will be erased, and with the blessing of these words that evening Until then he will be safe from the devil and no one will come up with a better deed than him. However, if a person says it more often (it can be better than that)."
+                }
+            },
+            "audio": "assets/28.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح مسلم",
+                    "eng": "Sahih Al Muslim"
+                },
+                "hadith_number": 2692
+            }
+        },
+        {
+            "id": 29,
+            "order": 24,
+            "repeat_count": 100,
+            "supplication_info": {
+                "ur": "دن بھر میں کسی بھی وقت",
+                "eng": "Any time of the day"
+            },
+            "text": {
+                "arabic": "اَسْتَغْفِرُ اللّٰہَ وَاَتُوْبُ اِلَیْہِ",
+                "translation": {
+                    "ur": "میں اللہ سے بخشش مانگتا ہوں اور اس کے حضور توبہ کرتا ہوں۔",
+                    "eng": "I seek Allah's forgiveness and I turn to Him in repentance."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/28.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "صحیح البخاری",
+                    "eng": "Sahih Al Bukhari"
+                },
+                "hadith_number": 6307
+            }
+        },
+        {
+            "id": 30,
+            "order": 25,
+            "repeat_count": 10,
+            "supplication_info": {
+                "ur": "کوئی سا مسنون درود شریف",
+                "eng": "Any Masnoon Durood Sharif"
+            },
+            "text": {
+                "arabic": "اَللّٰھُمَّ صَلِّ عَلٰی مُحَمَّدٍ وَّعَلٰٓی اٰلِ مُحَمَّدٍ",
+                "translation": {
+                    "ur": "اے اللہ! رحمت نازل فرما محمد (صلی اللہ علیہ وآلہ وسلم) پر اور آل محمد (صلی اللہ علیہ وآلہ وسلم) پر۔",
+                    "eng": "O Allah, send blessing upon our Prophet Muhammad and his family."
+                },
+                "supplication_details": {
+                    "ur": "",
+                    "eng": ""
+                }
+            },
+            "audio": "assets/30.mp3",
+            "is_morning_evening": {
+                "morning": true,
+                "evening": true
+            },
+            "reference": {
+                "book_name": {
+                    "ur": "سنن النسائی",
+                    "eng": "Sunan an-Nasa'i"
+                },
+                "hadith_number": 1293
+            }
+        }
+    ]
+}

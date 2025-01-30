@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Morning Evening Daily Supplications with Audio</title>
+    <meta name="description" content="Authentic Islamic supplications with translations, audio recitations, and detailed explanations">
+    <!-- Add this script for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Daily Morning Evening Supplications",
+        "description": "Collection of authentic Islamic prayers and supplications with translations and audio recitations",
+        "hasPart": [
+            <!-- This will be dynamically populated -->
+        ]
+    }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #3a5f5f;
+            --light: #f8f9fa;
+        }
+
+        body {
+            font-family: 'Noto Naskh Arabic', 'Noto Nastaliq Urdu', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            color: var(--primary);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .time-filter {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .time-btn {
+            padding: 12px 25px;
+            border: none;
+            border-radius: 30px;
+            background: var(--light);
+            color: var(--secondary);
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .time-btn.active {
+            background: var(--secondary);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .settings-btn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: var(--secondary);
+            color: white;
+            padding: 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .settings-modal {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+            z-index: 1000;
+        }
+
+        .language-option {
+            margin: 15px 0;
+        }
+
+        .controls {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .audio-controls {
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .audio-btn {
+            padding: 10px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            background: var(--secondary);
+            color: white;
+        }
+
+        .repeat-btn.active {
+            background: #2ecc71 !important;
+        }
+
+        .supplication-card {
+            background: white;
+            margin-bottom: 25px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        .supplication-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .arabic-text {
+            font-size: 1.8em;
+            text-align: right;
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #2a4365;
+        }
+
+        .translation {
+            border-left: 3px solid var(--secondary);
+            padding-left: 20px;
+            margin: 20px 0;
+        }
+
+        .urdu-text {
+            font-family: 'Noto Nastaliq Urdu', serif;
+            text-align: right;
+            font-size: 1.2em;
+            line-height: 2.3;
+            color: #4a5568;
+        }
+
+        .urdu-details {
+            font-size: .9rem;
+        }
+
+        .english-text {
+            font-style: italic;
+            color: #718096;
+            margin-top: 15px;
+        }
+
+        .english-details {
+            font-size: .8rem;
+        }
+
+        .details {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        .share-btn {
+            background: #e2e8f0;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            float: right;
+            transition: all 0.3s ease;
+        }
+
+        .share-btn:hover {
+            background: var(--secondary);
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .arabic-text {
+                font-size: 1.4em;
+            }
+
+            .audio-controls {
+                flex-wrap: wrap;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Daily Supplications</h1>
+            <div class="settings-btn" onclick="toggleSettings()">⚙️</div>
+            <div class="settings-modal" id="settingsModal">
+                <h3>Settings</h3>
+                <div class="language-option">
+                    <label>
+                        <input type="checkbox" id="showEnglish" checked> Show English Translations
+                    </label>
+                </div>
+                <div class="language-option">
+                    <label>
+                        <input type="checkbox" id="showUrdu" checked> Show Urdu Translations
+                    </label>
+                </div>
+                <button class="btn btn-primary" onclick="saveSettings()">Save Settings</button>
+            </div>
+
+            <div class="time-filter">
+                <button class="time-btn" data-time="morning">Morning</button>
+                <button class="time-btn" data-time="evening">Evening</button>
+            </div>
+        </div>
+
+        <div id="supplicationsContainer"></div>
+    </div>
+
+    <script>
+        let supplications = [];
+        let currentTimeFilter = '';
+
+        let currentAudio = null;
+        let repeatMode = false;
+        
+        let userSettings = {
+            showEnglish: true,
+            showUrdu: true
+        };
+
+        // Load data automatically
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch('supplications.json');
+                supplications = (await response.json()).supplications;
+                setDefaultTimeFilter();
+                renderSupplications();
+                setupFilterButtons();
+            } catch (error) {
+                console.error('Error loading supplications:', error);
+            }
+        });
+
+        function setDefaultTimeFilter() {
+            const hours = new Date().getHours();
+            currentTimeFilter = (hours >= 0 && hours < 12) ? 'morning' : 'evening';
+            document.querySelector(`[data-time="${currentTimeFilter}"]`).classList.add('active');
+        }
+
+        function setupFilterButtons() {
+            document.querySelectorAll('.time-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.time-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    currentTimeFilter = btn.dataset.time;
+                    renderSupplications();
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+            });
+        }
+
+        function renderSupplications() {
+            // Load settings
+            const savedSettings = localStorage.getItem('supplicationSettings');
+            if(savedSettings) userSettings = JSON.parse(savedSettings);
+
+            // Update checkboxes
+            document.getElementById('showEnglish').checked = userSettings.showEnglish;
+            document.getElementById('showUrdu').checked = userSettings.showUrdu;
+            
+            const filtered = supplications.filter(supp => 
+                supp.is_morning_evening[currentTimeFilter]
+            ).sort((a, b) => a.order - b.order);
+
+            const container = document.getElementById('supplicationsContainer');
+            container.innerHTML = filtered.map(supp => `
+                <div class="supplication-card">
+                    ${userSettings.showUrdu ? `
+                    <div class="urdu-text details urdu-details">
+                        ${supp.text.supplication_details.ur}
+                    </div>` : ''}
+
+                    ${userSettings.showEnglish ? `
+                    <div class="english-text details english-details">
+                        ${supp.text.supplication_details.eng}
+                    </div>` : ''}
+
+                    ${supp.text.supplication_details.eng || supp.text.supplication_details.eng ? `<hr>` :''}
+
+                    <div class="arabic-text">${supp.text.arabic}</div>
+                    
+                    <div class="translation">
+                    ${userSettings.showUrdu ? `<div class="urdu-text">${supp.text.translation.ur}</div>`:''}
+                    ${userSettings.showEnglish ? `<div class="english-text">${supp.text.translation.eng}</div>`:''}
+                    </div>
+
+                    <div class="controls">
+                        <div class="audio-controls">
+                            <button class="audio-btn" onclick="playAudio(${supp.id})">▶️</button>
+                            <button class="audio-btn" onclick="currentAudio.pause()">⏸️</button>
+                            <button class="audio-btn repeat-btn" onclick="toggleRepeat()">🔁</button>
+                        </div>
+
+                        <div>
+                            <button class="share-btn" style="margin-top:25px;" onclick="shareSupplication(${supp.id})">Share ➤</button>
+                        </div>
+                    </div>
+
+                    
+
+                    
+                </div>
+            `).join('');
+        }
+
+        // Add click handler for SEO
+        document.querySelectorAll('.supplication-card').forEach(card => {
+                        card.addEventListener('click', () => {
+                            history.pushState({}, '',`#dua-${supp.id}`);
+                            updateSEO(supp);
+                        });
+                    });
+
+        // Initial load with hash
+        window.addEventListener('load', () => {
+            if(window.location.hash) {
+                const id = parseInt(window.location.hash.replace('#dua-', ''));
+                const supp = supplications.find(s => s.id === id);
+                if(supp) updateSEO(supp);
+            }
+        });
+
+        function shareSupplication(id) {
+            const supp = supplications.find(s => s.id === id);
+            if (!supp) return;
+
+            const shareData = {
+                title: `Supplication #${supp.id}`,
+                text: `${supp.text.arabic}\n\n${supp.text.translation.eng}\n\n${supp.text.supplication_details.eng}`,
+                url: window.location.href
+            };
+
+            if (navigator.share) {
+                navigator.share(shareData);
+            } else {
+                // Fallback for desktop
+                prompt('Copy to clipboard:', `${shareData.text}\n\n${shareData.url}`);
+            }
+        }
+
+        // Add settings functions
+        function toggleSettings() {
+            document.getElementById('settingsModal').style.display = 
+                document.getElementById('settingsModal').style.display === 'block' ? 'none' : 'block';
+        }
+
+        function saveSettings() {
+            userSettings = {
+                showEnglish: document.getElementById('showEnglish').checked,
+                showUrdu: document.getElementById('showUrdu').checked
+            };
+            localStorage.setItem('supplicationSettings', JSON.stringify(userSettings));
+            renderSupplications();
+            toggleSettings();
+        }
+
+        // Add SEO functions
+        function updateSEO(supp) {
+            document.title = `${supp.text.translation.eng.substring(0, 50)}... | Daily Suppication (ME Azkar)`;
+            document.querySelector('meta[name="description"]').content = 
+                `${supp.text.arabic.substring(0, 156)}... ${supp.text.translation.ur.substring(0, 156)}... ${supp.text.translation.eng.substring(0, 156)}...`;
+
+            // Update structured data
+            const structuredData = {
+                "@context": "https://schema.org",
+                "@type": "CreativeWork",
+                "name": `Supplication ${supp.id}`,
+                "text": supp.text.arabic,
+                "english_translation": supp.text.translation.eng,
+                "urdu_translation": supp.text.translation.ur,
+                "audio": supp.audio
+            };
+            document.getElementById('structuredData').innerHTML = JSON.stringify(structuredData);
+        }
+
+        // Add audio functions
+        function playAudio(id) {
+            if(currentAudio) {
+                currentAudio.pause();
+            }
+            currentAudio = new Audio(`assets/${id}.mp3`);
+            currentAudio.play();
+            currentAudio.loop = repeatMode;
+            
+            currentAudio.addEventListener('ended', () => {
+                if(repeatMode) currentAudio.play();
+            });
+        }
+
+        function toggleRepeat() {
+            repeatMode = !repeatMode;
+            // document.querySelector('.repeat-btn').classList.toggle('active');
+            const repeatBtn = document.querySelector('.repeat-btn');
+            repeatBtn.classList.toggle('active');   
+            if(currentAudio) currentAudio.loop = repeatMode;
+        }
+
+        // Add preconnect for audio files
+        const preconnect = document.createElement('link');
+        preconnect.rel = 'preconnect';
+        preconnect.href = 'assets/';
+        document.head.appendChild(preconnect);
+    </script>
+</body>
+</html>
