@@ -524,7 +524,34 @@ View more supplications at: ${window.location.href}
             }).catch(err => {
                 console.error('Failed to copy text: ', err);
             });
+
+        //     navigator.clipboard.writeText(textToCopy).then(() => {
+        //     showNotification('Supplication copied to clipboard!');
+        // }).catch(err => {
+        //     console.error('Failed to copy text: ', err);
+        // });
+
         }
+
+        // notification functions
+    //     function showNotification(message) {
+    //     if (Notification.permission === 'granted') {
+    //         new Notification(message);
+    //     } else if (Notification.permission !== 'denied') {
+    //         Notification.requestPermission().then(permission => {
+    //             if (permission === 'granted') {
+    //                 new Notification(message);
+    //             }
+    //         });
+    //     }
+    // }
+
+    // // Request notification permission on page load
+    // window.addEventListener('load', () => {
+    //     if (Notification.permission !== 'granted' && Notification.permission !== 'denied') {
+    //         Notification.requestPermission();
+    //     }
+    // });
 
         // Add preconnect for audio files
         const preconnect = document.createElement('link');
