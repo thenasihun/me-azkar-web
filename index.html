@@ -4,6 +4,17 @@
     <meta charset="UTF-8">
     <title>Morning Evening Daily Supplications with Audio</title>
     <meta name="description" content="Authentic Islamic supplications with translations, audio recitations, and detailed explanations">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Islamic supplications, morning supplications, evening supplications, daily prayers, authentic prayers, Islamic prayers, audio recitations, prayer translations">
+    <meta name="author" content="Your Name or Organization">
+    <meta property="og:title" content="Morning Evening Daily Supplications with Audio">
+    <meta property="og:description" content="Authentic Islamic supplications with translations, audio recitations, and detailed explanations">
+    <meta property="og:image" content="URL_to_image">
+    <meta property="og:url" content="URL_to_your_page">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Morning Evening Daily Supplications with Audio">
+    <meta name="twitter:description" content="Authentic Islamic supplications with translations, audio recitations, and detailed explanations">
+    <meta name="twitter:image" content="URL_to_image">
     <!-- Add this script for SEO -->
     <script type="application/ld+json">
     {
@@ -82,6 +93,10 @@
             border-radius: 50%;
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
         }
 
         .settings-modal {
@@ -95,6 +110,30 @@
             border-radius: 15px;
             box-shadow: 0 8px 30px rgba(0,0,0,0.2);
             z-index: 1000;
+            max-width: 90%;
+            width: 400px;
+        }
+
+        .settings-modal h3 {
+            margin-top: 0;
+        }
+
+        .settings-modal .language-option {
+            margin: 15px 0;
+        }
+
+        .settings-modal .btn {
+            background: var(--secondary);
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .settings-modal .btn:hover {
+            background: var(--primary);
         }
 
         .language-option {
@@ -130,6 +169,13 @@
 
         .repeat-btn.active {
             background: #2ecc71 !important;
+        }
+
+        .repeat-count {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: var(--secondary);
+            margin-bottom: 10px;
         }
 
         .supplication-card {
@@ -204,17 +250,43 @@
         }
 
         @media (max-width: 768px) {
-            .arabic-text {
-                font-size: 1.4em;
-            }
-
-            .audio-controls {
-                flex-wrap: wrap;
-            }
+        .arabic-text {
+            font-size: 1.4em;
         }
+
+        .audio-controls {
+            flex-wrap: wrap;
+        }
+
+        .supplication-card {
+            padding: 20px;
+        }
+
+        .header {
+            padding: 15px;
+        }
+
+        .time-filter {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .time-btn {
+            width: 100%;
+            text-align: center;
+        }
+    }
     </style>
 </head>
 <body>
+    <noscript>
+        <div class="container">
+            <div class="header">
+                <h1>Daily Supplications</h1>
+                <p>Please enable JavaScript to view the supplications.</p>
+            </div>
+        </div>
+    </noscript>
     <div class="container">
         <div class="header">
             <h1>Daily Supplications</h1>
@@ -294,7 +366,7 @@
             // Update checkboxes
             document.getElementById('showEnglish').checked = userSettings.showEnglish;
             document.getElementById('showUrdu').checked = userSettings.showUrdu;
-            
+
             const filtered = supplications.filter(supp => 
                 supp.is_morning_evening[currentTimeFilter]
             ).sort((a, b) => a.order - b.order);
@@ -302,6 +374,16 @@
             const container = document.getElementById('supplicationsContainer');
             container.innerHTML = filtered.map(supp => `
                 <div class="supplication-card">
+                    <div class="repeat-count">Repeat: ${supp.repeat_count} times</div>
+                    <div class="arabic-text">${supp.text.arabic}</div>
+                    
+                    <div class="translation">
+                        ${userSettings.showUrdu ? `<div class="urdu-text">${supp.text.translation.ur}</div>`:''}
+                        ${userSettings.showEnglish ? `<div class="english-text">${supp.text.translation.eng}</div>`:''}
+                    </div>
+
+                    ${userSettings.showUrdu || userSettings.showEnglish ? `<hr>` :''}
+
                     ${userSettings.showUrdu ? `
                     <div class="urdu-text details urdu-details">
                         ${supp.text.supplication_details.ur}
@@ -312,15 +394,6 @@
                         ${supp.text.supplication_details.eng}
                     </div>` : ''}
 
-                    ${supp.text.supplication_details.eng || supp.text.supplication_details.eng ? `<hr>` :''}
-
-                    <div class="arabic-text">${supp.text.arabic}</div>
-                    
-                    <div class="translation">
-                    ${userSettings.showUrdu ? `<div class="urdu-text">${supp.text.translation.ur}</div>`:''}
-                    ${userSettings.showEnglish ? `<div class="english-text">${supp.text.translation.eng}</div>`:''}
-                    </div>
-
                     <div class="controls">
                         <div class="audio-controls">
                             <button class="audio-btn" onclick="playAudio(${supp.id})">▶️</button>
@@ -329,13 +402,9 @@
                         </div>
 
                         <div>
-                            <button class="share-btn" style="margin-top:25px;" onclick="shareSupplication(${supp.id})">Share ➤</button>
+                            <button class="share-btn" style="margin-top:25px;" onclick="copySupplication(${supp.id})">Copy 📋</button>
                         </div>
                     </div>
-
-                    
-
-                    
                 </div>
             `).join('');
         }
@@ -430,6 +499,31 @@
             const repeatBtn = document.querySelector('.repeat-btn');
             repeatBtn.classList.toggle('active');   
             if(currentAudio) currentAudio.loop = repeatMode;
+        }
+
+        function copySupplication(id) {
+            const supp = supplications.find(s => s.id === id);
+            if (!supp) return;
+
+            const textToCopy = `
+Supplication #${supp.id}
+Repeat: ${supp.repeat_count} times
+
+Arabic:
+${supp.text.arabic}
+
+${userSettings.showUrdu ? `Urdu Translation:\n${supp.text.translation.ur}\n` : ''}
+${userSettings.showEnglish ? `English Translation:\n${supp.text.translation.eng}\n` : ''}
+${userSettings.showUrdu ? `Urdu Details:\n${supp.text.supplication_details.ur}\n` : ''}
+${userSettings.showEnglish ? `English Details:\n${supp.text.supplication_details.eng}\n` : ''}
+View more supplications at: ${window.location.href}
+        `.trim();
+
+            navigator.clipboard.writeText(textToCopy).then(() => {
+                alert('Supplication copied to clipboard!');
+            }).catch(err => {
+                console.error('Failed to copy text: ', err);
+            });
         }
 
         // Add preconnect for audio files
