@@ -19,7 +19,7 @@
                     "eng": "He who recites the Aya al-Kursi in the morning is safe from the jinn till evening and he who recites it in the evening is safe from them till morning."
                 }
             },
-            "audio": "assets/1.mp3",
+            "audio": "1.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -51,7 +51,7 @@
                     "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
                 }
             },
-            "audio": "assets/2.mp3",
+            "audio": "2.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -83,7 +83,7 @@
                     "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
                 }
             },
-            "audio": "assets/3.mp3",
+            "audio": "3.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -115,7 +115,7 @@
                     "eng": "Whoever recites the last three surah three times in the morning and three times in the evening, this process is enough for him to provide for everything in the world."
                 }
             },
-            "audio": "assets/4.mp3",
+            "audio": "4.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -147,7 +147,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/5.mp3",
+            "audio": "5.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -179,7 +179,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/6.mp3",
+            "audio": "6.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -211,7 +211,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/7.mp3",
+            "audio": "7.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -243,7 +243,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/8.mp3",
+            "audio": "8.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -275,7 +275,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/9.mp3",
+            "audio": "9.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -307,7 +307,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/10.mp3",
+            "audio": "10.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -339,7 +339,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/11.mp3",
+            "audio": "11.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -371,7 +371,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/12.mp3",
+            "audio": "12.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -403,7 +403,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/13.mp3",
+            "audio": "13.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -435,7 +435,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/14.mp3",
+            "audio": "14.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -467,7 +467,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/15.mp3",
+            "audio": "15.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -499,7 +499,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/16.mp3",
+            "audio": "16.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -531,7 +531,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/17.mp3",
+            "audio": "17.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -563,7 +563,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/18.mp3",
+            "audio": "18.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -595,7 +595,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/19.mp3",
+            "audio": "19.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -627,7 +627,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/20.mp3",
+            "audio": "20.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -659,7 +659,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/21.mp3",
+            "audio": "21.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -691,7 +691,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/22.mp3",
+            "audio": "22.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -723,7 +723,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/23.mp3",
+            "audio": "23.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -755,7 +755,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/24.mp3",
+            "audio": "24.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": false
@@ -787,7 +787,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/25.mp3",
+            "audio": "25.mp3",
             "is_morning_evening": {
                 "morning": false,
                 "evening": true
@@ -819,7 +819,7 @@
                     "eng": "Whoever recites it in the morning, ten good deeds will be written for him, ten sins will be forgiven, ten degrees will be raised and this prayer is equal to freeing ten necks from the children of Ismaeel. He will keep the one who prays safe from the devil. And whoever reads it in the evening has the same reward."
                 }
             },
-            "audio": "assets/26.mp3",
+            "audio": "26.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -851,7 +851,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/26.mp3",
+            "audio": "26.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -883,7 +883,7 @@
                     "eng": "Whoever recites this supplication a hundred times in the morning will be rewarded with the release of ten slaves, one hundred good deeds will be written in his name and one hundred sins will be erased, and with the blessing of these words that evening Until then he will be safe from the devil and no one will come up with a better deed than him. However, if a person says it more often (it can be better than that)."
                 }
             },
-            "audio": "assets/28.mp3",
+            "audio": "28.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -915,7 +915,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/28.mp3",
+            "audio": "28.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
@@ -947,7 +947,7 @@
                     "eng": ""
                 }
             },
-            "audio": "assets/30.mp3",
+            "audio": "30.mp3",
             "is_morning_evening": {
                 "morning": true,
                 "evening": true
